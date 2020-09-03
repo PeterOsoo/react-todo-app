@@ -58,7 +58,7 @@ const App = () => {
 
 	return (
 		<React.Fragment>
-			<header>
+			<header className="d-flex justify-content-center">
 				<h1> Todo List </h1>
 			</header>
 			<Form
