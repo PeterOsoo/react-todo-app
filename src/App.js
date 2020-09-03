@@ -9,7 +9,7 @@ const App = () => {
 	return (
 		<div>
 			<header>
-				<h1>Rd27's Todo List </h1>
+				<h1> Todo List </h1>
 			</header>
 			<Form
 				todos={todos}
@@ -17,7 +17,7 @@ const App = () => {
 				inputText={inputText}
 				setInputText={setInputText}
 			/>
-			<TodoList />
+			<TodoList todos={todos} />
 		</div>
 	)
 }
